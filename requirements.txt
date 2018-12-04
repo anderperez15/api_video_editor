@@ -1,0 +1,27 @@
+#Requirements
+
+##require python 2.x or 3.x
+
+##python 2.x
+sudo pip install moviepy
+sudo pip install Flask
+
+##python 3.x
+sudo pip3 install moviepy
+sudo pip3 install Flask
+
+##require ffmpeg
+### instalacion
+sudo add-apt-repository ppa:jon-severinsson/ffmpeg
+sudo apt-get update
+sudo apt-get install ffmpeg
+
+tutorial:https://planetadiego.com/2014/12/29/instalar-ffmeg-en-ubuntu-14-0410-linux-mint-17-1/
+
+##RUN PROJECT
+ir a la ruta del projecto con cd
+cd './route/to/project' 
+
+export FLASK_APP=api.py
+flask run
+
